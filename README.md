@@ -1,4 +1,8 @@
-# 3ml
+# 3ML
+Official code for "Mask More and Mask Later: Efficient Pre-training of Masked Language Models by Disentangling the [MASK] Token".
+
+## What's New
+More codes are coming
 
 
 ## Data Processing
