@@ -17,7 +17,7 @@ validation sets, tokenize and binarize them to the format required by [fairseq](
   ```
 * Download Bookcorpus from [the Pile](https://github.com/EleutherAI/the-pile) and extract:
   ```bash
-  wget https://the-eye.eu/public/AI/pile_preliminary_components/books1.tar.gz
+  wget --no-check-certificate  https://the-eye.eu/public/AI/pile_preliminary_components/books1.tar.gz
   tar xvzf books1.tar.gz  # all books (text files) saved in the books1/epubtxt folder
   ```
 * Clean Wikipedia and Bookcorpus (borrowed from 
