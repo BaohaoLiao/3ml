@@ -11,6 +11,8 @@ validation sets, tokenize and binarize them to the format required by [fairseq](
   [google drive]( https://drive.google.com/drive/folders/1oQF4diVHNPCclykwdvQJw8n_VIWwV0PT?usp=sharing) 
   (refer to [issue](https://github.com/mlcommons/training/issues/377)) and extract:
   ```bash
+  pip install gdown
+  gdown --id "18K1rrNJ_0lSR9bsLaoP3PkQeSFO-9LE7"
   bzip2 -dk enwiki-latest-pages-articles.xml.bz2
   ```
 * Download Bookcorpus from [the Pile](https://github.com/EleutherAI/the-pile) and extract:
