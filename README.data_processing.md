@@ -44,13 +44,13 @@ validation sets, tokenize and binarize them to the format required by [fairseq](
   
   # merge all training files into one single file, same for test files
   python merge_shards.py \
-    --data <clean_dir> \
+    --data <split_dir> \
     --output_dir <merge_dir> \
     --grep training \ 
     --ratio 256
   
   python merge_shards.py \
-    --data <clean_dir> \
+    --data <split_dir> \
     --output_dir <merge_dir> \
     --grep test \ 
     --ratio 128
